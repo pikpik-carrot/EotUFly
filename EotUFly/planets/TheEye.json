@@ -1,0 +1,27 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name" : "Eye of the Universe",
+	"Base": {
+		"surfaceSize": 500,
+		"hasMapMarker": true,
+		"showMinimap": false,
+		"soiOverride": 500
+	},
+	"Orbit": {
+		"isStatic": true,
+		"showOrbitLine": true,
+		"primaryBody": "Sun",
+		"semiMajorAxis": 450000,
+		"trueAnomaly": 90
+	},
+	"Props": {
+		"details": [
+		  {
+			"assetBundle": "planets/assets/eyeoftheuniverse_body",
+			"path": "Assets/EyeOfTheUniverse_Body.prefab",
+			"isRelativeToParent": true,
+			"keepLoaded": true
+		  }
+		]
+	}
+}
