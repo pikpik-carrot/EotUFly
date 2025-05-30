@@ -1,0 +1,5 @@
+﻿<Project>
+  <PropertyGroup>
+    <OutputPath>$(AppData)\OuterWildsModManager\OWML\Mods\pikpik_carrot.EotUFly</OutputPath>
+  </PropertyGroup>
+</Project>
